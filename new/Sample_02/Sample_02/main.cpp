@@ -32,6 +32,7 @@ int main()
     int value_1 = 0b0000000000000000000011111000000;
 
     //例　value_0 + value_1の結果をvalue_2に代入して固定小数点数として表示する。
+    //    10.625 + 7.75 = 18.375
     int value_2 = value_0 + value_1;
     DispFixedPoint(value_2);
 
@@ -45,14 +46,16 @@ int main()
     // value_0 - value_1の結果をvalue_2に代入しなさい。
     // また、計算結果が 10.625(value_0) - 7.75(value_1) = 2.875‬になっていることを
     // DispFixedPoint関数を利用して確認しなさい。
-
+    value_2 = value_0 - value_1;
+    DispFixedPoint(value_2);
 
 
     //実習-3 
     // value_1 - value_0の結果をvalue_2に代入しなさい。
     // また、計算結果が 7.75(value_1) - 10.625(value_0) = -2.875‬になっていることを
     // DispFixedPoint関数を利用して確認しなさい。
-
+    value_2 = value_1 - value_0;
+    DispFixedPoint(value_2);
 
 
 }

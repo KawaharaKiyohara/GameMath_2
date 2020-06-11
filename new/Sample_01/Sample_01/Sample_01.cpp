@@ -20,7 +20,6 @@ void DispFixedPoint(int value)
             f += powf(2, -(i + 1));
         }
     }
-
     std::cout << f << "\n";
 }
 int main()
@@ -31,10 +30,10 @@ int main()
     DispFixedPoint(value_0);
 
     //実習-1 
-    // vlueに7.75を表す固定小数点数の値を代入しなさい。
+    // value_0に7.75を表す固定小数点数の値を代入しなさい。
     // また、正しく作成できているかDispFixedPoint関数を利用して確認しなさい。
- 
-
+    value_0 = 0b0000000000000000000011111000000;
+    DispFixedPoint(value_0);
 
 }
 
