@@ -50,6 +50,13 @@ void Player::Update()
 	// CVector3 addPos = moveSpeed * ( 1.0f / 60.0f ); //１フレームで移動する量を計算する。
 	// position += addPos;  //1フレームの移動量を座標に加算する。これをオイラー積分という。
 	//
+
+	if (fabsf(m_moveSpeed.x) > 0.001f
+		|| fabsf(m_moveSpeed.z) > 0.001f
+	) {
+		float angle = atan2(m_moveSpeed.x, m_moveSpeed.z);
+		m_rotation.SetRotation(CVector3::AxisY(), angle);
+	}
 	m_position = m_charaCon.Execute(1.0f / 60.0f, m_moveSpeed);
 
 	//ワールド行列の更新。
