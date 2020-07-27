@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{c81522fc-6ec4-409f-9e27-19e642ba25fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPathMoveLoop.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearCamera.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearControl.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverCamera.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverControl.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSilhouette.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="star.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="StarRenderer.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Program.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="Background.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPathMoveLoop.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearCamera.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearControl.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverCamera.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverControl.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSilhouette.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="star.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="StarRenderer.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Assets\shader\shadowBlur.fx">
+      <Filter>other</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
